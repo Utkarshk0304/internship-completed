@@ -1,0 +1,113 @@
+.DisplayCards {
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid rgb(216, 215, 215);
+    margin-bottom: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 5px;
+    /* height: 150px; */
+    min-height: 150px;
+    max-height: 200px;
+    /* min-width: 383px; */
+
+}
+
+.DisplayCards:hover {
+    cursor: pointer;
+    border: 1px solid rgb(173, 173, 173);
+    transition: 0.4s;
+}
+
+.bi-check2-square {
+    margin-left: 15px;
+
+    color: black;
+    transition: 0.4s;
+
+}
+
+.RenderCardsP {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: flex-start; */
+    font-size: larger;
+    font-weight: 500;
+    /* color: black; */
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: black;
+
+
+}
+
+.RenderCardsDescription {
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: 2px; */
+
+}
+
+.bi-plus-square-dotted {
+
+    margin-left: 15px;
+    /* margin-bottom: 30px; */
+    color: black;
+    transition: 0.4s;
+
+
+}
+
+#CardsImage {
+    width: 100px;
+    height: 105px;
+    /* border-radius: 5px; */
+    margin-right: 18px;
+    margin-left: 8px;
+}
+
+
+.ifSelected {
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+
+    /* height: 150px; */
+    margin-bottom: 10px;
+
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(8, 8, 8);
+
+    /* margin:-2px -2px -2px -2px; */
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    min-height: 150px;
+    /* min-width: 383px; */
+    max-height: 200px;
+
+}
+
+.bi-check2-square {
+    margin-left: 15px;
+    /* margin-top: 10px; */
+    color: black;
+    /* margin-bottom: px; */
+    transition: 0.4s;
+}
+.blackBorder{
+    border: 1px solid black;
+}

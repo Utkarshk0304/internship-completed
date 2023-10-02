@@ -1,0 +1,50 @@
+.RightSideSection {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  /* z-index: 5000; */
+  /* width: 440px; */
+  /* margin-left: 67%; */
+  /* margin-bottom: 170px; */
+}
+
+.OnclickCards {
+  /* margin-left: 67%; */
+  background-color: white;
+  z-index: 1000;
+
+}
+
+html {
+  overflow-y: scroll;
+
+  overflow-x: hidden;
+  /* overflow: hidden; */
+
+}
+
+body {
+  font-family: GT America, -apple-system, BlinkMacSystemFont, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
